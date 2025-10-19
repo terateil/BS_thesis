@@ -30,7 +30,7 @@ BS_thesis/
 │
 ├── results/                   # Evaluation results and logs
 │
-├── train_all_tasks.sh         # Run training for all individual tasks
+├── train_all_tasks.sh         # Run training for all tasks
 ├── train_moa.sh               # Run MoA (Mixture of LoRAs) training
 ├── run_all_evaluation.sh      # Evaluate all trained models
 ├── full_evaluation.py         # Unified evaluation script across tasks
