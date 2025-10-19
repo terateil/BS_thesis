@@ -22,11 +22,7 @@ Our experiments show that simple merging strategies (concatenation, weight summi
 BS_thesis/
 │
 ├── src/
-│   ├── __init__.py
 │   └── lora.py                # Core implementation of LoRA, MoA, and merging strategies
-│
-├── weights/
-│   └── Qwen2-0.5B/            # Pretrained or fine-tuned weights
 │
 ├── results/                   # Evaluation results and logs
 │
