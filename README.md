@@ -1,10 +1,5 @@
 # Rethinking LoRA Merging for Language Model’s Multitask Adaptation
 
-Author: Chanbin Lee  
-Affiliation: UNIST, Department of Computer Science and Engineering  
-Email: chblee@unist.ac.kr
-
-------------------------------------------------------------
 
 ## Overview
 
