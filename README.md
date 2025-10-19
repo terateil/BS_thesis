@@ -17,8 +17,10 @@ Our experiments show that simple merging strategies (concatenation, weight summi
 
 ------------------------------------------------------------
 
+
 ## Project Structure
 
+```
 BS_thesis/
 │
 ├── src/
@@ -36,6 +38,7 @@ BS_thesis/
 │
 ├── Thesis.pdf                 # Full research paper
 └── README.md                  # This file
+```
 
 ------------------------------------------------------------
 
