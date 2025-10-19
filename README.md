@@ -21,7 +21,7 @@ Our experiments show that simple merging strategies (concatenation, weight summi
 ## Project Structure
 
 ```
-Merging_Loras/
+Merging_LoRAs/
 │
 ├── src/
 │   └── lora.py                # Core implementation of LoRA, MoA, and merging strategies
