@@ -1,0 +1,14 @@
+summarization
+📈 ROUGE: {'rouge1': 0.15898471893119043, 'rouge2': 0.046291467633371, 'rougeL': 0.11824847228415047, 'rougeLsum': 0.13786928353049688}
+translation
+📘 BLEU: {'bleu': 0.09718388419277425, 'precisions': [0.3051060267857143, 0.12698756866146285, 0.0655368926214757, 0.035130082567378096], 'brevity_penalty': 1.0, 'length_ratio': 1.4181422494806608, 'translation_length': 14336, 'reference_length': 10109}
+qa
+QA Metrics (EM/F1): {'exact_match': 62.6, 'f1': 71.59702098738825}
+sentiment
+✅ Accuracy: 0.8680
+nli
+✅ Accuracy: 0.0531
+paraphrasing
+📝 BLEU (paraphrase quality): {'bleu': 0.5528095450526069, 'precisions': [0.8790689047574887, 0.6364874063989108, 0.47378104875804966, 0.36022837444791556], 'brevity_penalty': 0.9944511379245334, 'length_ratio': 0.994466476067509, 'translation_length': 10783, 'reference_length': 10843}
+commonsense
+🧠 Commonsense Accuracy: 0.6160

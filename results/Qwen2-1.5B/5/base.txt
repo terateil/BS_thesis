@@ -1,0 +1,10 @@
+summarization
+📈 ROUGE: {'rouge1': 0.16027702386646786, 'rouge2': 0.04614053740908003, 'rougeL': 0.118855625974133, 'rougeLsum': 0.13686213904502073}
+translation
+📘 BLEU: {'bleu': 0.015771817061560906, 'precisions': [0.060208451475390605, 0.019431663342483068, 0.00983266519076966, 0.005378835190072322], 'brevity_penalty': 1.0, 'length_ratio': 5.058759521218716, 'translation_length': 51139, 'reference_length': 10109}
+qa
+QA Metrics (EM/F1): {'exact_match': 15.4, 'f1': 34.88186046173825}
+sentiment
+✅ Accuracy: 0.0040
+nli
+✅ Accuracy: 0.0000
