@@ -20,16 +20,26 @@ Our experiments show that simple merging strategies (concatenation, weight summi
 ## Project Structure
 
 BS_thesis/
+│
 ├── src/
-│   └── lora.py               # Core implementation of LoRA, MoA, and merging strategies
-├── train_all_tasks.sh        # Train LoRA modules for all tasks
-├── train_moa.sh              # Train the Mixture-of-LoRAs model
-├── run_all_evaluation.sh     # Run evaluation for all trained weights
-├── full_evaluation.py        # Unified multitask evaluation script
-├── visualize_lora.ipynb      # Visualization of LoRA weights and metrics
-├── weights/                  # Trained LoRA and MoA weights
-├── results/                  # Evaluation outputs
-└── Thesis.pdf                # Full research paper
+│   ├── __init__.py
+│   └── lora.py                # Core implementation of LoRA, MoA, and merging strategies
+│
+├── weights/
+│   └── Qwen2-0.5B/            # Pretrained or fine-tuned weights
+│
+├── results/                   # Evaluation results and logs
+│
+├── train_all_tasks.sh         # Run training for all individual tasks
+├── train_moa.sh               # Run MoA (Mixture of LoRAs) training
+├── run_all_evaluation.sh      # Evaluate all trained models
+├── full_evaluation.py         # Unified evaluation script across tasks
+├── train_individual_loras.py  # Train LoRAs separately for each task
+├── train_moa.py               # Implementation of MoA training
+├── visualize_lora.ipynb       # Notebook for visualization and analysis
+│
+├── Thesis.pdf                 # Full research paper
+└── README.md                  # This file
 
 ------------------------------------------------------------
 
